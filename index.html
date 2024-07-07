@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahi Emaan Foundation</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="icon" href="./Images/Logo.png" type="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <svg onclick="hideMenu( )" class="Icn" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="About-Us.html">About</a></li>
+                    <li><a href="Courses.html">Course</a></li>
+                    <li><a href="Contact-Us.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <svg  onclick="showMenu()" class="Icn"xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </nav>
+        <div class="text-box">
+            <h1>Rahi Emaan Foudation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, doloribus!</p>
+            <a href="" class="btn">Visit Us to know more!</a>
+        </div>
+    </section>
+
+    <section class="Course">
+        <h1>Cources We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, error.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam temporibus corporis nesciunt totam provident placeat.</p>
+            </div>
+            <div class="course-col">
+                <h3>Men</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam temporibus corporis nesciunt totam provident placeat.</p>
+            </div>
+            <div class="course-col">
+                <h3>Ladies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam temporibus corporis nesciunt totam provident placeat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Facilities---------- -->
+     <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae perspiciatis non iusto dolorum iure neque!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="" alt="Hostel">
+                <h3>
+                    Hostel system
+                </h3>
+                <p>A hostel System for those who has no space for going, until they get hostel by their Madrasa</p>
+            </div>
+            <div class="facilities-col">
+                <img src="" alt="Lorem">
+                <h3>
+                    Lorem, ipsum.
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ratione!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="" alt="Lorem">
+                <h3>
+                    Lorem, ipsum.
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ducimus.</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique molestias <br>officia illum voluptas cupiditate corrupti.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/rahiemaanfoundation/" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Made for Rahi Emaan Foundation <i class="fa-solid fa-heart"></i></p>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/a41d170d16.js" crossorigin="anonymous"></script>
+    <!-- ------- JavaScript ----- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
